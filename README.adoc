@@ -1,13 +1,5 @@
-== Neo4j Movies Application: Quick Start
-
-image::https://github.com/neo4j-examples/movies-python-bolt/workflows/Python%20application/badge.svg[CI]
-
-image::http://dev.assets.neo4j.com.s3.amazonaws.com/wp-content/uploads/movie_application.png[float=right,width=400]
-
-This example application demonstrates how easy it is to get started with http://neo4j.com/developer[Neo4j] in Python.
-
-It is a very simple web application that uses our Movie graph dataset to provide a search with listing, a detail view and a graph visualization.
-
+== Call Records To Identify Criminal: Quick Start
+Inspired be Neo4j Movies Application
 === The Stack
 
 These are the components of our Web Application:
@@ -15,14 +7,14 @@ These are the components of our Web Application:
 * Application Type:         Python-Web Application
 * Web framework:            https://palletsprojects.com/p/flask/[Flask] (Micro-Webframework)
 * Neo4j Database Connector: https://github.com/neo4j/neo4j-python-driver[Neo4j Python Driver] for Cypher https://neo4j.com/developer/python[Docs]
-* Database:                 Neo4j-Server (4.x) with multi-database
+* Database:                 Neo4j-Server (3.x) with multi-database
 * Frontend:                 jquery, bootstrap, https://d3js.org/[d3.js]
-
-Provision a database quickly with https://sandbox.neo4j.com/?usecase=movies[Neo4j Sandbox] or https://neo4j.com/cloud/aura/[Neo4j Aura].
 
 === Setup
 
-First get yourself setup with link:http://docs.python-guide.org/en/latest/dev/virtualenvs/[virtualenv] so we don't break any other Python stuff you have on your machine. After you've got that installed let's setup an environment for our app:
+First remember to create new Neo4j Database with dumb file in repo as "call_record".
+
+Get yourself setup with link:http://docs.python-guide.org/en/latest/dev/virtualenvs/[virtualenv] so we don't break any other Python stuff you have on your machine. After you've got that installed let's setup an environment for our app:
 
 [source]
 ----
